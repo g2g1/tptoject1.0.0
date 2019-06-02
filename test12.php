@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>GameGG</title>
-	<link href="GGgamestyle.css" rel='stylesheet' type='text/css'>
+	<link href="test12style.css" rel='stylesheet' type='text/css'>
 </head>
 <body >
 	<div align="center" id="box"><form method="post">

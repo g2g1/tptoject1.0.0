@@ -4,7 +4,7 @@
 	<title>GameGG</title>
 	<link href="test12style.css" rel='stylesheet' type='text/css'>
 </head>
-<body >
+<body>
 	<div align="center" id="box"><form method="post">
 		<p>username:</p><input type="text" name="user" placeholder="enter sentence"/>
 	
@@ -67,8 +67,11 @@ function translateToReal($user1){
 	$newscript = [];
 	for($i = 0; $i < $length; $i++){
 		$newscript[$i] = $arr[$scriptsplit[$i]];
-		echo $newscript[$i];	
-									}
+		<html>
+		<div id="box1">
+		   <?php echo $newscript[$i]; ?>	
+		</div>
+			</html>						}
 								}     
 		if(isset($_POST['submit2'])){						
 translateToReal($user1);								

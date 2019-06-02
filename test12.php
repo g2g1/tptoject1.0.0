@@ -67,11 +67,9 @@ function translateToReal($user1){
 	$newscript = [];
 	for($i = 0; $i < $length; $i++){
 		$newscript[$i] = $arr[$scriptsplit[$i]];
-		<html>
-		<div id="box1">
-		   <?php echo $newscript[$i]; ?>	
-		</div>
-			</html>						}
+		
+		   echo $newscript[$i]; 	
+							}
 								}     
 		if(isset($_POST['submit2'])){						
 translateToReal($user1);								

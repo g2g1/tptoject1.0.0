@@ -29,7 +29,7 @@
 
 <?php
 $dbuser="root";
-$dbpass="gg.pass1.phpassass1n.";
+$dbpass="";
 $dbhostname="localhost";
 $dbname="login";
 
